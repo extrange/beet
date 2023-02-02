@@ -1,0 +1,9 @@
+services:
+  beet:
+    build: .
+    volumes:
+      - /mnt/storage/Music_copy:/import
+      - /mnt/storage/Music_beets:/music
+      - ./data:/data
+      - ./config.yaml:/root/.config/beets/config.yaml
+    entrypoint: beet
