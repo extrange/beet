@@ -7,3 +7,5 @@ services:
       - ./data:/data
       - ./config.yaml:/root/.config/beets/config.yaml
     entrypoint: beet
+    environment:
+      EDITOR: vim
