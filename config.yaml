@@ -16,12 +16,14 @@ library: /data/musiclibrary.db
 badfiles:
   check_on_import: yes
 
+duplicates:
+  checksum: ffmpeg -i {file} -f hash -hash murmur3 -
+
+import:
+  reflink: true
+
 replaygain:
   backend: ffmpeg
 
 unimported:
   ignore_subdirectories: ""
-
-playlist:
-    auto: yes
-    playlist_dir: /import/Playlists
