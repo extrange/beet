@@ -9,3 +9,4 @@ services:
     entrypoint: beet
     environment:
       EDITOR: vim
+      TZ: Asia/Singapore
