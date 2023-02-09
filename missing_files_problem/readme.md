@@ -44,3 +44,6 @@
         - Probably the reason why `toprated` has some extras is because there are some duplicates there
     - After deleting 145 duplicates there were 4452 songs
         - `toprated`: 578
+
+- Navidrome says there are 4431 songs...
+    - Playlist counts however, are correct
