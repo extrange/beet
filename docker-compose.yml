@@ -2,8 +2,8 @@ services:
   beet:
     build: .
     volumes:
-      - /mnt/storage/Music_copy:/import
-      - /mnt/storage/Music_beets:/music
+      - '/mnt/storage/Music - Import/:/import'
+      - /mnt/storage/Music:/music
       - ./data:/data
       - ./data/checksum:/usr/bin/checksum
       - ./config.yaml:/root/.config/beets/config.yaml
