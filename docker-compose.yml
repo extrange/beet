@@ -5,6 +5,7 @@ services:
       - /mnt/storage/Music_copy:/import
       - /mnt/storage/Music_beets:/music
       - ./data:/data
+      - ./data/checksum:/usr/bin/checksum
       - ./config.yaml:/root/.config/beets/config.yaml
     entrypoint: beet
     environment:

@@ -1,3 +1,4 @@
 beets
+black
 pyacoustid
 reflink

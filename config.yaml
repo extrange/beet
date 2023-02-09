@@ -17,7 +17,8 @@ badfiles:
   check_on_import: yes
 
 duplicates:
-  checksum: ffmpeg -i {file} -map 0:a -c:a copy -f hash -hash murmur3 -
+  # Uses bash script in ./data/checksum (which is mounted to /usr/bin)
+  checksum: checksum {file}
 
 import:
   reflink: true

@@ -29,4 +29,8 @@
 
 ## Import 9/2/23
 
-- beet says there are ____
+- beet says there are 4596 songs
+    - This file was not imported: `/mnt/storage/Music/Various Artists/Initial D ~D Selection~/02 Edo Boys - No One Sleep In Tokyo.mp3:murmur3=f9277ba7e3df5dd20a28f0b05c73590b`
+    - After importing this file, there were 4597 songs
+- after deleting ___ duplicates there were ____
+- `beet dup` claims there are 145 duplicates after the above operations
