@@ -17,7 +17,7 @@ badfiles:
   check_on_import: yes
 
 duplicates:
-  checksum: ffmpeg -i {file} -f hash -hash murmur3 -
+  checksum: ffmpeg -i {file} -map 0:a -c:a copy -f hash -hash murmur3 -
 
 import:
   reflink: true
