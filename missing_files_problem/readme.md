@@ -32,5 +32,15 @@
 - beet says there are 4596 songs
     - This file was not imported: `/mnt/storage/Music/Various Artists/Initial D ~D Selection~/02 Edo Boys - No One Sleep In Tokyo.mp3:murmur3=f9277ba7e3df5dd20a28f0b05c73590b`
     - After importing this file, there were 4597 songs
-- after deleting ___ duplicates there were ____
-- `beet dup` claims there are 145 duplicates after the above operations
+- This file was not detected by ffprobe (why?): `/mnt/storage/Music/Unknown/R Type/00 Midis - R-TYPE - ENDING`NAME - Piano Ver..mp3`
+    - However, it was detected by `beets` and imported
+- This file was (likely) not imported by `beets`: `/mnt/storage/Music/Telegram/.trashed-1674299154-AUD-20221222-WA0017.opus,murmur3=a950deee6d29858305b4537b80eac931`
+
+- Playlists:
+    - Before deleting duplicates:
+        - `toprated`: 602
+        - `chanel`: 48
+        - `psychedelic`: 2
+        - Probably the reason why `toprated` has some extras is because there are some duplicates there
+    - After deleting 145 duplicates there were 4452 songs
+        - `toprated`: 578

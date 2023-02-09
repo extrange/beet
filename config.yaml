@@ -22,6 +22,8 @@ duplicates:
 
 import:
   reflink: true
+  set_fields:
+    comments: null
 
 replaygain:
   backend: ffmpeg
