@@ -47,3 +47,7 @@
 
 - Navidrome says there are 4431 songs...
     - Playlist counts however, are correct
+    - 4431 + 21 = 4452 (the correct number)
+    - Previously, Navidrome was also missing 21 songs (4597-4576 = 21)
+    - Therefore the same 21 songs are missing
+    - Navidrome misses `*.mp4` songs: `/music/Trinity College Choir/Yulefest!/00 01-Pierpont Parry (B)  Jingle Bells.mp4`
