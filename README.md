@@ -2,6 +2,13 @@
 
 To run, do `docker compose run beet <command>`.
 
+# Importing Music Files
+
+- Place files in `/mnt/storage/Music - Import`
+- Run `beet import /import` (aliased to the above `docker` command)
+- If you want to tag them to a playlist, add an appropriate tag to the `comments` field (via `beet modify <query> comments=<value>`) after importing
+- Note: Navidrome will not detect `.mp4` containers
+
 # Importing an existing library with playlists
 
 The best way (after trying multiple methods) is:
