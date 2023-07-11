@@ -21,9 +21,10 @@ duplicates:
   checksum: checksum {file}
 
 import:
-  reflink: true
+  reflink: auto
   set_fields:
     comments: null
+  move: yes
 
 replaygain:
   backend: ffmpeg
