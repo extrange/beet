@@ -2,12 +2,11 @@ services:
   beet:
     build: .
     volumes:
+      - .:/app
       - '/mnt/storage/Music - Import/:/import'
       - /mnt/storage/Music:/music
-      - ./data:/data
-      - ./data/checksum:/usr/bin/checksum
-      - ./config.yaml:/root/.config/beets/config.yaml
-    entrypoint: beet
+    entrypoint: /home/vscode/.local/bin/pdm run start
     environment:
       EDITOR: vim
       TZ: Asia/Singapore
+      BEETSDIR: /app

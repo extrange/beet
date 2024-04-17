@@ -11,14 +11,13 @@ plugins:
   - unimported #Allows one to list all files in the library folder which are not listed in the beets library database, including art files.
 
 directory: /music
-library: /data/musiclibrary.db
+library: /app/data/musiclibrary.db
 
 badfiles:
   check_on_import: yes
 
 duplicates:
-  # Uses bash script in ./data/checksum (which is mounted to /usr/bin)
-  checksum: checksum {file}
+  checksum: /app/checksum {file}
 
 import:
   reflink: auto
@@ -28,6 +27,7 @@ import:
 
 replaygain:
   backend: ffmpeg
+  peak: sample
 
 unimported:
   ignore_subdirectories: ""

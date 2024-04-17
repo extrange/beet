@@ -1,7 +1,9 @@
-FROM python:3-bullseye
+FROM mcr.microsoft.com/devcontainers/python:3.12
 
 RUN apt-get update && apt-get install -y ffmpeg mp3val flac xdg-utils vim less
 
-COPY requirements.txt /tmp/requirements.txt
+USER vscode
 
-RUN pip install -r /tmp/requirements.txt
+RUN curl -sSL https://pdm-project.org/install-pdm.py | python3 -
+
+WORKDIR /app

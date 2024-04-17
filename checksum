@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Ensure we only calculate hashes for the audio stream (some items have embedded covers)
 ffmpeg -i "$1" -hide_banner -loglevel error -map 0:a -c:a copy -f hash -hash murmur3 - | tr -d '\n'
 
 exit
