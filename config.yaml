@@ -23,7 +23,7 @@ duplicates:
 import:
   reflink: auto
   set_fields:
-    comments: null
+    comments: ""
   move: yes
 
 replaygain:
