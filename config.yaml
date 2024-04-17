@@ -4,6 +4,7 @@ plugins:
   - duplicates
   - edit #Modify music metadata using your favorite text editor
   - fetchart #Retrieves album art images from various sources on the Web and stores them as image files.
+  - embedart
   - fromfilename #Helps to tag albums that are missing tags altogether but where the filenames contain useful information like the artist and title.
   - info
   - mbsync
