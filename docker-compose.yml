@@ -5,7 +5,7 @@ services:
       - .:/app
       - '/mnt/storage/Music - Import/:/import'
       - /mnt/storage/Music:/music
-    entrypoint: /home/vscode/.local/bin/pdm run start
+    entrypoint: /home/vscode/.local/bin/pdm run beet
     environment:
       EDITOR: vim
       TZ: Asia/Singapore

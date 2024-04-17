@@ -18,6 +18,3 @@ license = {text = "MIT"}
 
 [tool.pdm]
 distribution = false
-
-[tool.pdm.scripts]
-start = "beet"
