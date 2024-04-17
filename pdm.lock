@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:10162a01b7390e04004a3e3078766a173dd993ffe6c41f9781b0a7d87fc865c5"
+content_hash = "sha256:314efef46fdaa134e8f2a4d5e65f0a3a1ff894c5135be61c3bccbcc87957f67c"
 
 [[package]]
 name = "audioread"
@@ -20,20 +20,21 @@ files = [
 
 [[package]]
 name = "beets"
-version = "1.6.0"
+version = "1.6.1"
+git = "https://github.com/beetbox/beets.git"
+ref = "3adca9769b68f93bd2d80983125a10ab5e299400"
+revision = "3adca9769b68f93bd2d80983125a10ab5e299400"
 summary = "music tagger and library organizer"
 groups = ["default"]
 dependencies = [
-    "confuse>=1.0.0",
+    "confuse>=1.5.0",
     "jellyfish",
-    "mediafile>=0.2.0",
+    "mediafile>=0.12.0",
     "munkres>=1.0.0",
     "musicbrainzngs>=0.4",
     "pyyaml",
-    "unidecode",
-]
-files = [
-    {file = "beets-1.6.0.tar.gz", hash = "sha256:aa6fb734e44afc9b039c0abd0edd4c7706df00d4eb4aae7afa9ff4b6bb15525d"},
+    "typing-extensions",
+    "unidecode>=1.3.6",
 ]
 
 [[package]]
@@ -377,6 +378,17 @@ groups = ["default"]
 files = [
     {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
     {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.11.0"
+requires_python = ">=3.8"
+summary = "Backported and Experimental Type Hints for Python 3.8+"
+groups = ["default"]
+files = [
+    {file = "typing_extensions-4.11.0-py3-none-any.whl", hash = "sha256:c1f94d72897edaf4ce775bb7558d5b79d8126906a14ea5ed1635921406c0387a"},
+    {file = "typing_extensions-4.11.0.tar.gz", hash = "sha256:83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"},
 ]
 
 [[package]]
