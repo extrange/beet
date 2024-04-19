@@ -1,6 +1,6 @@
 plugins:
   - chroma #Fingerprint audio files with Acousticid
-    #- badfiles
+  - badfiles
   - duplicates
   - edit #Modify music metadata using your favorite text editor
   - fetchart #Retrieves album art images from various sources on the Web and stores them as image files.
