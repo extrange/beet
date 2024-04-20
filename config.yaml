@@ -5,12 +5,13 @@ plugins:
   - edit #Modify music metadata using your favorite text editor
   - fetchart #Retrieves album art images from various sources on the Web and stores them as image files.
   - embedart
-  - fromfilename #Helps to tag albums that are missing tags altogether but where the filenames contain useful information like the artist and title.
+  - fromfilename #Too many crashes
   - info
   - mbsync
   - playlist #Update playlists in the playlist directory automatically every time an item is moved or deleted
   - replaygain #Adds support for ReplayGain, a technique for normalizing audio playback levels.
   - unimported #Allows one to list all files in the library folder which are not listed in the beets library database, including art files.
+  - VGMplug
 
 directory: /music
 library: /app/data/musiclibrary.db
