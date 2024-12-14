@@ -1,6 +1,6 @@
 # Beet
 
-To run, do `docker compose run beet <command>`.
+To run, do `docker compose run beet <command>`. I've set up a `bash` alias.
 
 ## Importing Music Files
 
@@ -47,7 +47,3 @@ The best way (after trying multiple methods) is:
 ## Adding titles/subtitles to discs
 
 For albums with many discs, you can add the name of the disc by adding a `TSST` field to all tracks in the same disc.
-
-## Updating this repo
-
-`pdm update -u`
