@@ -5,7 +5,7 @@ plugins:
   - edit #Modify music metadata using your favorite text editor
   - fetchart #Retrieves album art images from various sources on the Web and stores them as image files.
   - embedart
-  - fromfilename #Too many crashes
+    #- fromfilename #Too many crashes
   - info
   - mbsync
   - playlist #Update playlists in the playlist directory automatically every time an item is moved or deleted
@@ -14,17 +14,18 @@ plugins:
   - VGMplug
 
 directory: /music
-library: /app/data/musiclibrary.db
+library: /library/musiclibrary.db
 
 badfiles:
   check_on_import: yes
 
 duplicates:
-  checksum: /app/checksum {file}
+  checksum: /library/checksum {file}
 
 import:
   reflink: auto
   move: yes
+  bell: yes
 
 replaygain:
   backend: ffmpeg

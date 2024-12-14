@@ -6,16 +6,10 @@ authors = [
     {name = "extrange", email = "29305375+extrange@users.noreply.github.com"},
 ]
 dependencies = [
-    "black>=24.4.0",
-    "pyacoustid>=1.3.0",
-    "reflink>=0.2.2",
-    "beets @ git+https://github.com/beetbox/beets.git@3adca9769b68f93bd2d80983125a10ab5e299400",
     "beets-vgmdb>=1.3.1",
+    "beets>=2.2.0",
+    "pyacoustid>=1.3.0",
 ]
 requires-python = "==3.12.*"
 readme = "README.md"
 license = {text = "MIT"}
-
-
-[tool.pdm]
-distribution = false

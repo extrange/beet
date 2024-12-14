@@ -1,12 +1,14 @@
 services:
   beet:
     build: .
+    container_name: beet
     volumes:
-      - .:/app
+      - ./config.yaml:/config/config.yaml
+      - ./library:/library
       - '/mnt/storage/Music - Import/:/import'
-      - /mnt/storage/Music:/music
-    entrypoint: /home/vscode/.local/bin/pdm run beet
+      - /mnt/storage/Music2:/music
+    entrypoint: /app/.venv/bin/beet
     environment:
       EDITOR: vim
       TZ: Asia/Singapore
-      BEETSDIR: /app
+      BEETSDIR: /config

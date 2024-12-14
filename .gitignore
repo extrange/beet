@@ -1,6 +1,4 @@
-data/
+library/
 old/
 __pycache__
-.pdm-python
 .venv
-state.pickle
