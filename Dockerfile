@@ -1,6 +1,6 @@
 FROM python:3.12-slim
 
-COPY --from=ghcr.io/astral-sh/uv:latest@sha256:ba36ea627a75e2a879b7f36efe01db5a24038f8d577bd7214a6c99d5d4f4b20c /uv /uvx /bin/
+COPY --from=ghcr.io/astral-sh/uv:latest@sha256:0ac957607303916420297a4c9c213bb33fbd3c888f9cd7f4f7273596ebf42b85 /uv /uvx /bin/
 
 ENV APP_DIR=/app
 ENV TZ=Asia/Singapore
