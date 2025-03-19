@@ -24,7 +24,7 @@ RUN --mount=type=cache,target=/var/cache/apt,sharing=locked \
     --mount=type=cache,target=/var/lib/apt,sharing=locked \
     apt-get update && \
     apt-get install -y --no-install-recommends \
-    ffmpeg mp3val flac xdg-utils git && \
+    ffmpeg mp3val flac xdg-utils git vim && \
     rm -rf /var/lib/apt/lists/*
 
 # Run the container as a non-root user
