@@ -64,11 +64,15 @@ wheels = [
 
 [[package]]
 name = "audioread"
-version = "3.0.1"
+version = "3.1.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/db/d2/87016ca9f083acadffb2d8da59bfa3253e4da7eeb9f71fb8e7708dc97ecd/audioread-3.0.1.tar.gz", hash = "sha256:ac5460a5498c48bdf2e8e767402583a4dcd13f4414d286f42ce4379e8b35066d", size = 116513, upload-time = "2023-09-27T19:27:53.084Z" }
+dependencies = [
+    { name = "standard-aifc", marker = "python_full_version >= '3.13'" },
+    { name = "standard-sunau", marker = "python_full_version >= '3.13'" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/a1/4a/874ecf9b472f998130c2b5e145dcdb9f6131e84786111489103b66772143/audioread-3.1.0.tar.gz", hash = "sha256:1c4ab2f2972764c896a8ac61ac53e261c8d29f0c6ccd652f84e18f08a4cab190", size = 20082, upload-time = "2025-10-26T19:44:13.484Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/57/8d/30aa32745af16af0a9a650115fbe81bde7c610ed5c21b381fca0196f3a7f/audioread-3.0.1-py3-none-any.whl", hash = "sha256:4cdce70b8adc0da0a3c9e0d85fb10b3ace30fbdf8d1670fd443929b61d117c33", size = 23492, upload-time = "2023-09-27T19:27:51.334Z" },
+    { url = "https://files.pythonhosted.org/packages/7e/16/fbe8e1e185a45042f7cd3a282def5bb8d95bb69ab9e9ef6a5368aa17e426/audioread-3.1.0-py3-none-any.whl", hash = "sha256:b30d1df6c5d3de5dcef0fb0e256f6ea17bdcf5f979408df0297d8a408e2971b4", size = 23143, upload-time = "2025-10-26T19:44:12.016Z" },
 ]
 
 [[package]]
@@ -223,14 +227,14 @@ wheels = [
 
 [[package]]
 name = "confuse"
-version = "2.0.1"
+version = "2.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pyyaml" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a7/77/05e2284baff5f2106f74b528b9930caf764d6c400733eb42e617c4234a7d/confuse-2.0.1.tar.gz", hash = "sha256:7379a2ad49aaa862b79600cc070260c1b7974d349f4fa5e01f9afa6c4dd0611f", size = 50872, upload-time = "2023-04-01T23:26:58.031Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/24/01/7d24e53986959b6148da5d0ffbce3e02e844110ac126bb42f46cad645ec9/confuse-2.1.0.tar.gz", hash = "sha256:abb9674a99c7a6efaef84e2fc84403ecd2dd304503073ff76ea18ed4176e218d", size = 22748, upload-time = "2025-10-27T10:22:01.251Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/32/1f/cf496479814d41fc252004482deeb90b740b4a6a391a3355c0b11d7e0abf/confuse-2.0.1-py3-none-any.whl", hash = "sha256:9b9e5bbc70e2cb9b318bcab14d917ec88e21bf1b724365e3815eb16e37aabd2a", size = 24750, upload-time = "2023-04-01T23:26:55.321Z" },
+    { url = "https://files.pythonhosted.org/packages/ea/6a/60e8d4a0e48559ff05aa7c9c65449c3a29c32ffe9f0690dc94b526c73c1f/confuse-2.1.0-py3-none-any.whl", hash = "sha256:502be1299aa6bf7c48f7719f56795720c073fb28550c0c7a37394366c9d30316", size = 25049, upload-time = "2025-10-27T10:22:00.08Z" },
 ]
 
 [[package]]
