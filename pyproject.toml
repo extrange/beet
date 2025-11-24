@@ -6,12 +6,11 @@ authors = [
     { name = "extrange", email = "29305375+extrange@users.noreply.github.com" },
 ]
 dependencies = [
-    "beets-vgmdb>=1.3.1",
     "beets[chroma]>=2.2.0",
     # Workaround for https://github.com/beetbox/pyacoustid/issues/87
     "standard-aifc>=3.13.0",
     "standard-sunau>=3.13.0",
 ]
-requires-python = ">=3.12"
+requires-python = ">=3.13"
 readme = "README.md"
 license = { text = "MIT" }
