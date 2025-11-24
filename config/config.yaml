@@ -11,7 +11,6 @@ plugins:
   - playlist #Update playlists in the playlist directory automatically every time an item is moved or deleted
   - replaygain #Adds support for ReplayGain, a technique for normalizing audio playback levels.
   - unimported #Allows one to list all files in the library folder which are not listed in the beets library database, including art files.
-  - VGMplug
 
 directory: /music
 library: /library/musiclibrary.db
