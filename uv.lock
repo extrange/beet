@@ -77,16 +77,10 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "beets", extra = ["chroma"] },
-    { name = "standard-aifc" },
-    { name = "standard-sunau" },
 ]
 
 [package.metadata]
-requires-dist = [
-    { name = "beets", extras = ["chroma"], specifier = ">=2.2.0" },
-    { name = "standard-aifc", specifier = ">=3.13.0" },
-    { name = "standard-sunau", specifier = ">=3.13.0" },
-]
+requires-dist = [{ name = "beets", extras = ["chroma"], specifier = ">=2.2.0" }]
 
 [[package]]
 name = "beets"
