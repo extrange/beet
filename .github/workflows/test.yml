@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   devenv-test:
-    uses: extrange/actions/.github/workflows/devenv-test.yml@v1.6
+    uses: extrange/actions/.github/workflows/devenv-test.yml@50aef3bd5ba1808aa39b0a01f52fc44a326e409c # v1.6
 
   build:
     runs-on: ubuntu-latest
@@ -19,10 +19,10 @@ jobs:
       - uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2 # v3
+        uses: docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f # v3
 
       - name: Build the image
-        uses: docker/build-push-action@471d1dc4e07e5cdedd4c2171150001c434f0b7a4 # v6
+        uses: docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83 # v6
         with:
           push: false
           platforms: linux/amd64
