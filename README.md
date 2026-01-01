@@ -1,7 +1,5 @@
 # Beet
 
-DO NOT UPDATE to PYTHON 3.13 UNTIL CHROMA IS WORKING
-
 To run, do `docker compose run beet <command>`. I've set up a `bash` alias.
 
 ## Importing Music Files
