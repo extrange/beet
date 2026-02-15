@@ -84,7 +84,7 @@ requires-dist = [{ name = "beets", extras = ["chroma"], specifier = ">=2.2.0" }]
 
 [[package]]
 name = "beets"
-version = "2.6.0"
+version = "2.6.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "colorama", marker = "sys_platform == 'win32'" },
@@ -94,6 +94,7 @@ dependencies = [
     { name = "mediafile" },
     { name = "numba" },
     { name = "numpy" },
+    { name = "packaging" },
     { name = "platformdirs" },
     { name = "pyyaml" },
     { name = "requests-ratelimiter" },
@@ -101,9 +102,9 @@ dependencies = [
     { name = "typing-extensions" },
     { name = "unidecode" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/4b/90/df1e11a3c6ca7ac39e396ed1d76d215be7372a699e52a849317996991ba6/beets-2.6.0.tar.gz", hash = "sha256:9ca4a34a9aac0ccf36f3d80a96a92d037978c1bbf7231af28a899447f7abb651", size = 2176098, upload-time = "2026-02-01T14:44:10.138Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/9a/f3/f429c70cdf8de80367be64515fe432b1cf44c60a9774cc75ae0aff36e48b/beets-2.6.1.tar.gz", hash = "sha256:1376b992ee18ee1b5de08d3586625e78d4338edb6b47e24f8e74932d8551f672", size = 2175882, upload-time = "2026-02-02T02:30:36.544Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b7/74/61e21bb3685cb385b75a81a8f6d716df74e02f89d58f8fa1c6bf4a12a022/beets-2.6.0-py3-none-any.whl", hash = "sha256:59105ac6eded110e2fe64102ee2ea0fd45ba73fb029251a75244c1386593c8ad", size = 604343, upload-time = "2026-02-01T14:44:08.038Z" },
+    { url = "https://files.pythonhosted.org/packages/d2/a8/fbdd2eeaea7add3103d52e8c84490ed7db383db5d5227aa8583e2abe284e/beets-2.6.1-py3-none-any.whl", hash = "sha256:d3654fc7fef2c26d35113d40346d873c073ca981e0db1f21e4575ca1860ede02", size = 604352, upload-time = "2026-02-02T02:30:34.303Z" },
 ]
 
 [package.optional-dependencies]
@@ -358,12 +359,21 @@ wheels = [
 ]
 
 [[package]]
-name = "platformdirs"
-version = "4.5.1"
+name = "packaging"
+version = "26.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/cf/86/0248f086a84f01b37aaec0fa567b397df1a119f73c16f6c7a9aac73ea309/platformdirs-4.5.1.tar.gz", hash = "sha256:61d5cdcc6065745cdd94f0f878977f8de9437be93de97c1c12f853c9c0cdcbda", size = 21715, upload-time = "2025-12-05T13:52:58.638Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/65/ee/299d360cdc32edc7d2cf530f3accf79c4fca01e96ffc950d8a52213bd8e4/packaging-26.0.tar.gz", hash = "sha256:00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4", size = 143416, upload-time = "2026-01-21T20:50:39.064Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cb/28/3bfe2fa5a7b9c46fe7e13c97bda14c895fb10fa2ebf1d0abb90e0cea7ee1/platformdirs-4.5.1-py3-none-any.whl", hash = "sha256:d03afa3963c806a9bed9d5125c8f4cb2fdaf74a55ab60e5d59b3fde758104d31", size = 18731, upload-time = "2025-12-05T13:52:56.823Z" },
+    { url = "https://files.pythonhosted.org/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl", hash = "sha256:b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529", size = 74366, upload-time = "2026-01-21T20:50:37.788Z" },
+]
+
+[[package]]
+name = "platformdirs"
+version = "4.9.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/6c/d5/763666321efaded11112de8b7a7f2273dd8d1e205168e73c334e54b0ab9a/platformdirs-4.9.1.tar.gz", hash = "sha256:f310f16e89c4e29117805d8328f7c10876eeff36c94eac879532812110f7d39f", size = 28392, upload-time = "2026-02-14T21:02:44.973Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/70/77/e8c95e95f1d4cdd88c90a96e31980df7e709e51059fac150046ad67fac63/platformdirs-4.9.1-py3-none-any.whl", hash = "sha256:61d8b967d34791c162d30d60737369cbbd77debad5b981c4bfda1842e71e0d66", size = 21307, upload-time = "2026-02-14T21:02:43.492Z" },
 ]
 
 [[package]]
@@ -378,11 +388,11 @@ sdist = { url = "https://files.pythonhosted.org/packages/1e/c7/48a17b6a75888cf76
 
 [[package]]
 name = "pyrate-limiter"
-version = "2.10.0"
+version = "4.0.2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/c0/a2/bb73c385e6d68cbe0ebe6ff16c22c96a79194c1298b2942005fcaf3eda9d/pyrate_limiter-2.10.0.tar.gz", hash = "sha256:98cc52cdbe058458e945ae87d4fd5a73186497ffa545ee6e98372f8599a5bd34", size = 49915, upload-time = "2023-02-26T16:03:08.883Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/03/98/2b3dc1ba6bdf2efaeaa3e102124cbd2636a4ccec241ffeb8a1de207f5cd4/pyrate_limiter-4.0.2.tar.gz", hash = "sha256:b678841e2215f114ef6f98c7093755ca3b466de83cb5a881231fd6e321fa14b5", size = 301304, upload-time = "2026-01-23T09:37:33.612Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/4f/2e/cad6d72ca044bff3b0d53b491f5116582e0704fea59672906d44b9600514/pyrate_limiter-2.10.0-py3-none-any.whl", hash = "sha256:a99e52159f5ed5eb58118bed8c645e30818e7c0e0d127a0585c8277c776b0f7f", size = 16376, upload-time = "2023-02-26T16:03:06.447Z" },
+    { url = "https://files.pythonhosted.org/packages/13/b9/80ffe3f2c34d3247186d74b1d08c1fed1e3ad4127ff6a8a5501b7bf16a97/pyrate_limiter-4.0.2-py3-none-any.whl", hash = "sha256:35ec42b9bb9cfabcafab14d0c5c6523f48378c3da2949e534ce3cbdfea71eadd", size = 36439, upload-time = "2026-01-23T09:37:32.097Z" },
 ]
 
 [[package]]
@@ -438,15 +448,15 @@ wheels = [
 
 [[package]]
 name = "requests-ratelimiter"
-version = "0.8.0"
+version = "0.9.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pyrate-limiter" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/ee/ad/78e0022aaa5b9db1c6ca7ff6eb2d9f2dafb63508acad8de6c2b2031640ba/requests_ratelimiter-0.8.0.tar.gz", hash = "sha256:8b43c35dbf6fa2bee30b9814411baa44c3e5fe793248ec1ed15c0cb8c8844bfe", size = 10781, upload-time = "2026-01-03T17:40:29.518Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a3/0b/57021530f25a32ad7d6672740ed07f62d9762a4e1154e6bc1fc214a2c429/requests_ratelimiter-0.9.1.tar.gz", hash = "sha256:1b43baa57734b4ed29817df7d536e22724cd3e2a30fdefcc800da570838fdd64", size = 12234, upload-time = "2026-02-13T00:06:10.817Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/51/5e/ccd98e17b1f6500b36bdc787bb7ecbedc0c89fb127f8b6613a94a0a6a69d/requests_ratelimiter-0.8.0-py3-none-any.whl", hash = "sha256:13bf89ec2c6f64e06e2b883a30f3b1874ee8c15d9f054ed48daeb120e8d4bec2", size = 9186, upload-time = "2026-01-03T17:40:28.253Z" },
+    { url = "https://files.pythonhosted.org/packages/f3/27/82ca7942881268d482b1c95a7936d3eac0a3b521d0c3ff0ba7cf485d2f3e/requests_ratelimiter-0.9.1-py3-none-any.whl", hash = "sha256:1246fac2ab307385a6170e9b321241e7b42e28c627f45b4f590371a66e1e05bd", size = 11013, upload-time = "2026-02-13T00:06:09.3Z" },
 ]
 
 [[package]]
