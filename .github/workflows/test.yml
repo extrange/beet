@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   devenv-test:
-    uses: extrange/actions/.github/workflows/devenv-test.yml@50aef3bd5ba1808aa39b0a01f52fc44a326e409c # v1.6
+    uses: extrange/actions/.github/workflows/devenv-test.yml@be45504d7fa69cf0016c5aadedb6eaf0ba295cf7 # v1.7
 
   build:
     runs-on: ubuntu-latest
