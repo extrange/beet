@@ -294,15 +294,15 @@ wheels = [
 
 [[package]]
 name = "mediafile"
-version = "0.16.0"
+version = "0.16.2"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "filetype" },
     { name = "mutagen" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/3f/3f/cc2d46b8ae67bd32b7f4fde1ff1cd079fc856bac5c7d765058b70eb74b34/mediafile-0.16.0.tar.gz", hash = "sha256:3abdbec924a65e9bad57a439a01ff3e8d2b88a5a6c4770a3cc0b1cc0aee73f9e", size = 24037, upload-time = "2026-04-03T18:09:07.286Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/60/88/01f580e0338eeeb126327727c7c11f776923975379ca30078c28f2caa81a/mediafile-0.16.2.tar.gz", hash = "sha256:168752adb0ec34cf757b24dfcc9d711f1dc8023e3ce422ce213932c1b1cdbcd8", size = 24375, upload-time = "2026-04-17T22:36:24.051Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/fa/39/897dfae4286fb356fc15bb25a087c603dd0b2c205066a68e6bef92f50982/mediafile-0.16.0-py3-none-any.whl", hash = "sha256:d6f1ebe04a2272bc63c3b8f34abd1bea477222345f1d647e08fa839836d023d4", size = 29350, upload-time = "2026-04-03T18:09:05.67Z" },
+    { url = "https://files.pythonhosted.org/packages/11/88/26d93113bda761fd28b1759d8bc5da8d856097b36c5be02c2127fbe96227/mediafile-0.16.2-py3-none-any.whl", hash = "sha256:7a893f977a3cf59d6774d4e2ac7359f01373b7a640815ceb66a916acbd8c42c6", size = 29616, upload-time = "2026-04-17T22:36:22.789Z" },
 ]
 
 [[package]]
@@ -390,11 +390,11 @@ wheels = [
 
 [[package]]
 name = "packaging"
-version = "26.0"
+version = "26.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/65/ee/299d360cdc32edc7d2cf530f3accf79c4fca01e96ffc950d8a52213bd8e4/packaging-26.0.tar.gz", hash = "sha256:00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4", size = 143416, upload-time = "2026-01-21T20:50:39.064Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/df/de/0d2b39fb4af88a0258f3bac87dfcbb48e73fbdea4a2ed0e2213f9a4c2f9a/packaging-26.1.tar.gz", hash = "sha256:f042152b681c4bfac5cae2742a55e103d27ab2ec0f3d88037136b6bfe7c9c5de", size = 215519, upload-time = "2026-04-14T21:12:49.362Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b7/b9/c538f279a4e237a006a2c98387d081e9eb060d203d8ed34467cc0f0b9b53/packaging-26.0-py3-none-any.whl", hash = "sha256:b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529", size = 74366, upload-time = "2026-01-21T20:50:37.788Z" },
+    { url = "https://files.pythonhosted.org/packages/7a/c2/920ef838e2f0028c8262f16101ec09ebd5969864e5a64c4c05fad0617c56/packaging-26.1-py3-none-any.whl", hash = "sha256:5d9c0669c6285e491e0ced2eee587eaf67b670d94a19e94e3984a481aba6802f", size = 95831, upload-time = "2026-04-14T21:12:47.56Z" },
 ]
 
 [[package]]
